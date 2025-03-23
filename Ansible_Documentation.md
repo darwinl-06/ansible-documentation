@@ -14,7 +14,8 @@ Ejemplo de cómo debe verse este archivo:
 [azure_vm]
 ip ansible_user=tu_usuario ansible_ssh_pass=tu_contraseña
 ```
-![alt text](image.png)
+
+![image](https://github.com/user-attachments/assets/c02e3569-5b1a-41b1-b9ab-9255666c921c)
 
 
 > **Importante:** Reemplaza ip, tu_usuario y tu_contraseña con los datos de tu máquina virtual.
@@ -111,7 +112,8 @@ Ejecuta el siguiente comando:
 ansible-playbook -i inventory/hosts.ini playbooks/install_docker.yml
 ```
 
-![alt text](image-2.png)
+
+![image-2](https://github.com/user-attachments/assets/4c65f098-52d9-4825-9dbd-83e0207f0cec)
 
 
 
@@ -120,7 +122,8 @@ Ejecuta el siguiente comando:
 ```bash
 ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
 ```
-![alt text](image-3.png)
+
+![image-3](https://github.com/user-attachments/assets/7300fd69-3a17-4100-8cce-c6851960014a)
 
 
 ### **3️ Acceder al juego desde el navegador**
@@ -129,6 +132,7 @@ Abre la siguiente dirección en tu navegador:
 http://52.233.128.14:8787
 ```
 
-![alt text](image-4.png)
+![image-4](https://github.com/user-attachments/assets/4782a6fb-8d40-4766-844b-b7a485b46441)
+
 
 > **Nota:** Sustituye `52.233.128.14` por la dirección IP pública de tu máquina virtual.
